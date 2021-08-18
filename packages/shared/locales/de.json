@@ -199,7 +199,7 @@
             "accountPage": "Kontoseite",
             "standard": "Standard",
             "expert": "Experte",
-            "takingAWhile": "Das dauert ein bisschen...",
+            "takingAWhile": "Dies kann eine Weile dauern...",
             "notGeneratingAddresses": "Generiert dein Ledger Adressen?",
             "reinstallLegacy": "Falls nicht, trenne das Gerät und versuche es noch einmal. Sollte der Fehler weiterhin bestehen, musst du die {legacy} App ggf. erneut installieren."
         },

@@ -124,81 +124,81 @@
         },
         "import": {
             "title": "Восстановить или мигрировать средства",
-            "body": "If you have an existing seed or wallet back up file, you can import it here. If you hold older network funds, you will be taken through the migration steps to move to the Chrysalis network.",
-            "importSeed": "I have an 81 character seed",
-            "importSeedDescription": "Enter a seed and migrate funds to Chrysalis",
-            "importMnemonic": "I have a Firefly recovery phrase",
-            "importMnemonicDescription": "Enter your recovery phrase to recover your wallets",
-            "importFile": "I have a file backup",
-            "importFileDescription": "Upload a Seedvault or Stronghold file",
-            "importLedger": "I have a Ledger backup",
-            "importLedgerDescription": "Restore or migrate a Ledger profile"
+            "body": "Если у вас есть существующий файл резервной копии seed или кошелька, вы можете импортировать его здесь. Если у вас есть старые сетевые средства, вы пройдете через шаги миграции для перехода в сеть Chrysalis.",
+            "importSeed": "У меня 81 символ seed",
+            "importSeedDescription": "Ввести seed и перевести средства в Chrysalis",
+            "importMnemonic": "У меня есть фраза восстановления Firefly",
+            "importMnemonicDescription": "Введите фразу восстановления, чтобы восстановить кошельки",
+            "importFile": "У меня есть резервная копия файла",
+            "importFileDescription": "Загрузите файл Seedvault или Stronghold",
+            "importLedger": "У меня есть резервная копия Ledger",
+            "importLedgerDescription": "Восстановить или перенести профиль Ledger"
         },
         "importFromText": {
             "seed": {
-                "title": "Type your seed to commence migration",
-                "body": "A seed consists of 81 characters. This is used to recover from the older Trinity app.",
-                "enter": "Enter your seed"
+                "title": "Введите свой seed для начала миграции",
+                "body": "Seed состоит из 81 символа. Он используется для восстановления из старого приложения Trinity.",
+                "enter": "Введите свой seed"
             },
             "mnemonic": {
-                "title": "Type your recovery phrase",
-                "body": "A recovery phrase is 24 words long, all lower case, with spaces between. This is used to recover existing Firefly wallets.",
-                "enter": "Enter your secret recovery phrase"
+                "title": "Введите вашу фразу восстановления",
+                "body": "Фраза для восстановления состоит из 24 слов, все слова в строчном формате, с пробелами между ними. Она используется для восстановления существующих кошельков Firefly.",
+                "enter": "Введите вашу секретную фразу восстановления"
             },
             "seedDetected": "Обнаружено 81 символ seed",
             "phraseDetected": "Обнаружена фраза восстановления 24 слов",
             "checksum": "Контрольная сумма"
         },
         "importFromFile": {
-            "title": "Restore your wallets using a backup file",
-            "body": "Import a backup file to restore your wallets. Backups can either be a Stronghold (.stronghold) or a Trinity SeedVault (.kdbx)."
+            "title": "Восстановите свои кошельки с помощью файла резервной копии",
+            "body": "Импортируйте файл резервной копии для восстановления кошельков. Резервные копии могут быть либо в формате Stronghold (.stronghold), либо в формате Trinity SeedVault (.kdbx)."
         },
         "importFromLedger": {
-            "title": "Restore or Migrate your Ledger",
-            "body": "Restore an existing Firefly Ledger profile, or migrate your funds from Trinity.",
-            "haveFireflyLedger": "I have a Firefly Ledger backup",
-            "haveFireflyLedgerDescription": "Restore a Firefly profile",
-            "haveTrinityLedger": "I have a Trinity Ledger backup",
-            "haveTrinityLedgerDescription": "Migrate a Trinity profile"
+            "title": "Восстановить или мигрировать ваш Ledger",
+            "body": "Восстановите существующий профиль Firefly Ledger или перенесите свои средства из Trinity.",
+            "haveFireflyLedger": "У меня есть резервная копия Firefly Ledger",
+            "haveFireflyLedgerDescription": "Восстановить профиль Firefly",
+            "haveTrinityLedger": "У меня есть резервная копия Тринити Ledger",
+            "haveTrinityLedgerDescription": "Мигрировать профиль Trinity"
         },
         "connectLedger": {
-            "title": "Connect your Ledger to Firefly",
-            "body": "For your Ledger device to be found by Firefly, please ensure that the official Ledger Live application is closed.",
-            "trafficLight1": "Connect and unlock your Ledger with your PIN",
-            "trafficLight2": "Open the new IOTA app on your Ledger",
-            "tips": "Tips if your Ledger isn’t connecting"
+            "title": "Подключите вашу Ledger к Firefly",
+            "body": "Чтобы ваше устройство Ledger было найдено Firefly, убедитесь, что официальное приложение Ledger Live закрыто.",
+            "trafficLight1": "Подключите и разблокируйте свой Ledger с помощью PIN-кода",
+            "trafficLight2": "Откройте новое приложение IOTA в вашем Ledger",
+            "tips": "Советы, если ваш Ledger не подключается"
         },
         "restoreFromFireflyLedger": {
-            "title": "Restore Your Ledger Profile",
-            "body": "Press restore to complete the setup process and restore your wallets, balances and transaction history.",
-            "restoring": "Restoring from Ledger..."
+            "title": "Восстановить ваш Ledger профиль",
+            "body": "Нажмите кнопку восстановления, чтобы выполнить процесс настройки и восстановить ваши кошельки, балансы и историю транзакций.",
+            "restoring": "Восстановление из Ledger..."
         },
         "legacyLedgerIntro": {
-            "title": "Start your Ledger migration using Firefly",
-            "body1": "Firefly will help you to transfer your tokens to the new Chrysalis network.",
-            "body2": "After the migration, you will be able to send and receive your tokens using your Ledger with Firefly.",
-            "readMore": "What to expect from the migration process"
+            "title": "Начните миграцию Ledger с помощью Firefly",
+            "body1": "Firefly поможет вам перевести ваши токены в новую сеть Chrysalis.",
+            "body2": "После миграции вы сможете отправлять и получать свои токены, используя свой Ledger с Firefly.",
+            "readMore": "Что ожидать от процесса миграции"
         },
         "generateNewLedgerAddress": {
             "title": "Создать новый адрес",
-            "body": "You need to generate a new address to migrate your tokens with Firefly. Click the button below to continue.",
-            "confirmTitle": "Confirm the new address",
-            "confirmBody": "For security, please compare the address generated on your Ledger device with the one displayed below. If they match, press both buttons on your Ledger as prompted.",
-            "confirmedTitle": "Address confirmed",
-            "confirmedBody": "You have confirmed that the address in Firefly matches the one on your Ledger device.",
-            "generating": "Generating address"
+            "body": "Вам нужно сгенерировать новый адрес для миграции токенов с Firefly. Нажмите кнопку ниже, чтобы продолжить.",
+            "confirmTitle": "Подтвердите новый адрес",
+            "confirmBody": "В целях безопасности сравните адрес, сгенерированный на вашем устройстве Ledger, с адресом, указанным ниже. Если они совпадают, нажмите обе кнопки на устройстве Ledger в соответствии с запросом.",
+            "confirmedTitle": "Адрес подтвержден",
+            "confirmedBody": "Вы подтвердили, что адрес в Firefly совпадает с адресом на вашем устройстве Ledger.",
+            "generating": "Генерация адреса"
         },
         "switchLedgerApps": {
-            "title": "Switch Ledger apps",
+            "title": "Переключить Ledger приложения",
             "body": "Please switch to the {legacy} app on your Ledger device to continue migration. When ready, press continue."
         },
         "selectLedgerAccountIndex": {
-            "title": "Choose Ledger account index",
-            "body": "Choose the Ledger account index you used with Trinity. For most users this will be the default index of 0.",
-            "accountIndex": "Account Index",
-            "accountPage": "Account Page",
-            "standard": "Standard",
-            "expert": "Expert",
+            "title": "Выберите индекс аккаунта Ledger",
+            "body": "Выберите индекс аккаунта Ledger, который вы использовали в Trinity. Для большинства пользователей это будет индекс по умолчанию, равный 0.",
+            "accountIndex": "Индекс аккаунта",
+            "accountPage": "Страница аккаунта",
+            "standard": "Обычный",
+            "expert": "Экспертный",
             "takingAWhile": "Это займет некоторое время...",
             "notGeneratingAddresses": "Is your Ledger generating addresses?",
             "reinstallLegacy": "If not, disconnect the device and try again. If the issue persists, you may need to reinstall the {legacy} app."
@@ -600,7 +600,7 @@
             }
         },
         "ledgerConnectionGuide": {
-            "title": "Tips if your Ledger isn’t connecting",
+            "title": "Советы, если ваш Ledger не подключается",
             "steps": {
                 "0": "Make sure Ledger Live is not open on your computer",
                 "1": "Ensure you have unlocked your Ledger device with your PIN",
