@@ -36,8 +36,8 @@ body:
       label: Is it a repeatable issue?
       description: Can the issue be reproduced repetitively?
       options:
-        - Yes
-        - No
+        - 'Yes'
+        - 'No'
     validations:
       required: true
 
